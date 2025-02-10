@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char str1[20],char str2[20],int a;
+    char str1[20],char str2[30],int a;
     printf("Name: %s");
     scanf("%s",&str1);
     printf("\nAge: %d");
