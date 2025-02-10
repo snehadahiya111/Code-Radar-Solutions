@@ -1,11 +1,7 @@
 #include<stdio.h>
 int main(){
-    char str1[20],char str2[30];int a;
-    printf("Name: %s\n");
-    scanf("%s",&str1);
-    printf("Age: %d\n");
-    scanf("%d",&a);
-    printf("Hobby: %s");
-    scanf("%s",&str2);
+    char str1[10],str2[20];int a;
+    scanf("%s %d %s",&str1,&a,&str2);
+    printf("Name: %s\nAge: %d\nHobby: %s",str1,a,str2);
     return 0;
 }
