@@ -3,6 +3,6 @@ int main(){
     int num,A;
     scanf("%X %d",&A,&num);
     printf("Hexadecimal: %X\n",A);
-    printf("Octal: %0",num);
+    printf("Octal: %o",num);
     return 0;
 }
