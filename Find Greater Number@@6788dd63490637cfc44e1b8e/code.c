@@ -7,6 +7,5 @@ int main(){
     else if (a<b);
     printf("%d",b);
     else
-    printf("default");
     return 0;
 }
